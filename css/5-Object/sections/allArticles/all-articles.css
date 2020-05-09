@@ -1,0 +1,38 @@
+@font-face {
+  src: url("../../fonts/Helvetica.ttf");
+  font-family: "Helvetica";
+}
+
+@font-face {
+  src: url("../../fonts/Gilroy-Bold.ttf");
+  font-family: "Gilroy-Bold";
+}
+
+.all-article {
+  width: 100%;
+  height: auto;
+}
+
+.all-article-title {
+  margin: 2.5em 0 2em 0;
+  color: var(--colorAzul3);
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.all-article-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-row-gap: 32px;
+}
+
+.all-article-container .items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  grid-column-gap: 20px;
+}
+/*# sourceMappingURL=all-articles.css.map */

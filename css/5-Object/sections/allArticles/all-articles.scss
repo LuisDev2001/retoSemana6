@@ -1,0 +1,25 @@
+@import "../../../1-Settings/settings.scss";
+
+.all-article {
+  width: 100%;
+  height: auto;
+
+  &-title {
+    margin: 2.5em 0 2em 0;
+    color: var(--colorAzul3);
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
+}
+
+.all-article-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 32px;
+
+  .items {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 20px;
+  }
+}
