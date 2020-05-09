@@ -6,6 +6,7 @@
   background: $colorBlanco;
 
   & .contenedor {
+    max-width: 75rem;
     height: inherit;
     display: flex;
     align-items: center;

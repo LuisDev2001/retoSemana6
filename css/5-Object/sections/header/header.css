@@ -15,6 +15,7 @@
 }
 
 .header .contenedor {
+  max-width: 75rem;
   height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
