@@ -87,7 +87,7 @@
   }
 }
 // Responsive desing
-@media screen and (min-width: $tabletV) {
+@media screen and (max-width: $tabletV) {
   .footer-blog {
     margin-right: 1.5rem;
 
@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (min-width: $mobile) {
+@media screen and (max-width: $mobile) {
   .footer-blog {
     margin-right: 1rem;
 
@@ -117,14 +117,19 @@
       max-width: 20rem;
     }
 
+    .container-btn {
+      margin-top: 2rem;
+    }
+
     &-description {
       .contenedor {
-        max-width: 20rem;
+        max-width: 28rem;
         flex-direction: column;
+        justify-content: space-between;
       }
 
       &-footer {
-        width: 85%;
+        width: 90%;
       }
     }
 

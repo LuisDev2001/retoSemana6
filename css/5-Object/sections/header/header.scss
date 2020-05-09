@@ -52,14 +52,14 @@
 }
 
 // Responsive desing
-@media screen and (min-width: $tabletV) {
+@media screen and (max-width: $tabletV) {
   .header {
     & .contenedor {
       max-width: 45rem;
     }
   }
 }
-@media screen and (min-width: $mobile) {
+@media screen and (max-width: $mobile) {
   .header {
     & .contenedor {
       max-width: 28rem;

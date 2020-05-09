@@ -107,7 +107,7 @@
     font-weight: bold;
   }
 }
-@media screen and (min-width: $mobile) {
+@media screen and (max-width: $mobile) {
   /*Articulo principal*/
   .main-article {
     grid-template-columns: 1fr;

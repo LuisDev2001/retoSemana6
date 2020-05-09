@@ -106,7 +106,7 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-blog {
     margin-right: 1.5rem;
   }
@@ -125,22 +125,28 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .footer-blog {
     margin-right: 1rem;
   }
   .footer-blog .contenedor {
     max-width: 20rem;
   }
+  .footer-blog .container-btn {
+    margin-top: 2rem;
+  }
   .footer-blog-description .contenedor {
-    max-width: 20rem;
+    max-width: 28rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .footer-blog-description-footer {
-    width: 85%;
+    width: 90%;
   }
   .footer-blog-items {
     -ms-grid-columns: 1fr;

@@ -23,7 +23,7 @@
     grid-column-gap: 20px;
   }
 }
-@media screen and (min-width: $mobile) {
+@media screen and (max-width: $mobile) {
   .all-article-container {
     .items {
       grid-template-columns: 1fr;

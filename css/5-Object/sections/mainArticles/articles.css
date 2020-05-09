@@ -165,7 +165,7 @@
   font-weight: bold;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   /*Articulo principal*/
   .main-article {
     -ms-grid-columns: 1fr;
