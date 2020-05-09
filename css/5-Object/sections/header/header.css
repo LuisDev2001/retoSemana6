@@ -28,46 +28,6 @@
           justify-content: space-between;
 }
 
-.header-logo {
-  width: auto;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header-logo .circle {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  position: relative;
-}
-
-.header-logo .circle.uno {
-  background: #316099;
-  border: 2px solid #316099;
-}
-
-.header-logo .circle.dos {
-  background: #ffffff;
-  border: 2px solid #316099;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Gilroy-Bold";
-  position: absolute;
-  left: 15px;
-}
-
 .header-menu {
   width: auto;
   height: 100%;

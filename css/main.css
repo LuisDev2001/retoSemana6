@@ -84,46 +84,6 @@ a {
           justify-content: space-between;
 }
 
-.header-logo {
-  width: auto;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header-logo .circle {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  position: relative;
-}
-
-.header-logo .circle.uno {
-  background: #316099;
-  border: 2px solid #316099;
-}
-
-.header-logo .circle.dos {
-  background: #ffffff;
-  border: 2px solid #316099;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Gilroy-Bold";
-  position: absolute;
-  left: 15px;
-}
-
 .header-menu {
   width: auto;
   height: 100%;
@@ -457,10 +417,157 @@ a {
   font-family: "Gilroy-Bold";
 }
 
+.footer-blog {
+  width: auto;
+  height: auto;
+  background: #316099;
+  margin-right: 5.8rem;
+  border-top-right-radius: 200px;
+}
+
+.footer-blog-description {
+  padding: 5rem 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer-blog-description .contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-blog-description-footer {
+  width: 40%;
+}
+
+.footer-blog-description-title {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+}
+
+.footer-blog-description-paragraph {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.footer-blog-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0 40px;
+  padding-top: 5rem;
+  position: relative;
+}
+
+.footer-blog-items-contact {
+  width: 100%;
+  height: auto;
+}
+
+.footer-blog-items-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.footer-blog-items-header .logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 1.5em;
+}
+
+.footer-blog-items-header .logo .circle.uno {
+  background: #98c3e8;
+}
+
+.footer-blog-items-title-compay, .footer-blog-items-about-us, .footer-blog-items-follow-us {
+  color: #ffffff;
+}
+
+.footer-blog-items-title-compay {
+  font-size: 1.8rem;
+  font-family: "Gilroy-Bold";
+}
+
+.footer-blog-items-about-us, .footer-blog-items-follow-us {
+  font-size: 1.3rem;
+}
+
+.footer-blog-items-contact-info {
+  height: auto;
+}
+
+.footer-blog-items-contact-info a {
+  display: block;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+@font-face {
+  src: url("../../fonts/Helvetica.ttf");
+  font-family: "Helvetica";
+}
+
+@font-face {
+  src: url("../../fonts/Gilroy-Bold.ttf");
+  font-family: "Gilroy-Bold";
+}
+
 .contenedor {
   max-width: 58rem;
   height: auto;
   margin: 0 auto;
+}
+
+.logo {
+  width: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo .circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.logo .circle.uno {
+  background: #316099;
+  border: 2px solid #316099;
+}
+
+.logo .circle.dos {
+  background: #ffffff;
+  border: 2px solid #316099;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Gilroy-Bold";
+  position: absolute;
+  left: 15px;
 }
 
 .search {
@@ -511,7 +618,7 @@ a {
 
 .search-icon .fas.fa-search {
   color: #316099;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .search-input {
@@ -524,27 +631,27 @@ a {
   color: #316099;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .search-input-input::-webkit-input-placeholder {
   color: #316099;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .search-input-input:-ms-input-placeholder {
   color: #316099;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .search-input-input::-ms-input-placeholder {
   color: #316099;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .search-input-input::placeholder {
   color: #316099;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 /*Mas informacion, iconos, author, hours*/
@@ -622,17 +729,79 @@ a {
   background: none;
   color: #356ead;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .all-article-pages .btn-page .fas.fa-arrow-left {
-  margin-right: 0.9em;
+  margin-right: 0.9rem;
 }
 
 .all-article-pages .btn-page .fas.fa-arrow-right {
-  margin-left: 0.9em;
+  margin-left: 0.9rem;
 }
 
 /*Colocar estilos de boton a reutilizar*/
+.btn {
+  width: 220px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  font-size: 1rem;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.btn.primary {
+  background: #5a98d0;
+  color: #ffffff;
+}
+
+.btn.primary:hover {
+  background: #98c3e8;
+  color: #222222;
+}
+
+/*contact more repeat*/
+.contact {
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.contact span {
+  margin-right: 20px;
+}
+
+/*Copy right component*/
+.footer-blog-copy {
+  width: 100%;
+  height: 60px;
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer-blog-copy-text {
+  color: #ffffff;
+  opacity: 0.4;
+}
+
 /*Cargar iconos si es que se utiliza*/
 /*# sourceMappingURL=main.css.map */
