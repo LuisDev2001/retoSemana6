@@ -1,9 +1,8 @@
 {
     "version": 3,
-    "mappings": "ACAA,UAAU;EACR,GAAG,EAAE,gCAAgC;EACrC,WAAW,EAAE,WAAW;;;AAG1B,UAAU;EACR,GAAG,EAAE,kCAAkC;EACvC,WAAW,EAAE,aAAa;;;ADW5B,eAAe",
+    "mappings": "AAaA,eAAe",
     "sources": [
-        "settings.scss",
-        "../fonts.scss"
+        "settings.scss"
     ],
     "names": [],
     "file": "settings.css"

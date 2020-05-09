@@ -1,13 +1,3 @@
-@font-face {
-  src: url("../../fonts/Helvetica.ttf");
-  font-family: "Helvetica";
-}
-
-@font-face {
-  src: url("../../fonts/Gilroy-Bold.ttf");
-  font-family: "Gilroy-Bold";
-}
-
 /*Breakpoints*/
 .all-article {
   width: 100%;
