@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACaA,UAAU;EACR,GAAG,EAAE,gCAAgC;EACrC,WAAW,EAAE,WAAW;;;AAG1B,UAAU;EACR,GAAG,EAAE,kCAAkC;EACvC,WAAW,EAAE,aAAa",
+    "sources": [
+        "mainArticles.scss",
+        "../../../1-Settings/settings.scss"
+    ],
+    "names": [],
+    "file": "mainArticles.css"
+}
