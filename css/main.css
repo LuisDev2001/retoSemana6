@@ -1,0 +1,254 @@
+/*Arquitectura ITCSS*/
+@font-face {
+  src: url("../../fonts/Helvetica.ttf");
+  font-family: "Helvetica";
+}
+
+@font-face {
+  src: url("../../fonts/Gilroy-Bold.ttf");
+  font-family: "Gilroy-Bold";
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  font-family: "Helvetica";
+}
+
+h1,
+p,
+span {
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Helvetica";
+}
+
+/*Secciones de la web*/
+@font-face {
+  src: url("../../fonts/Helvetica.ttf");
+  font-family: "Helvetica";
+}
+
+@font-face {
+  src: url("../../fonts/Gilroy-Bold.ttf");
+  font-family: "Gilroy-Bold";
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+}
+
+.header .contenedor {
+  width: 85%;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-logo {
+  width: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo .circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.header-logo .circle.uno {
+  background: #316099;
+  border: 2px solid #316099;
+}
+
+.header-logo .circle.dos {
+  background: #ffffff;
+  border: 2px solid #316099;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Gilroy-Bold";
+  position: absolute;
+  left: 15px;
+}
+
+.header-menu {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-item {
+  width: 100%;
+  height: 100%;
+  display: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+.header-list {
+  width: 130px;
+  height: 100%;
+  display: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-link {
+  width: 100%;
+  height: 100%;
+  display: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1f3f68;
+  font-size: 1.2em;
+  font-family: "Gilroy-Bold";
+  font-weight: bold;
+  -webkit-transition: 0.25s ease;
+  transition: 0.25s ease;
+}
+
+.header-link.active {
+  color: #006eff;
+}
+
+@font-face {
+  src: url("../../fonts/Helvetica.ttf");
+  font-family: "Helvetica";
+}
+
+@font-face {
+  src: url("../../fonts/Gilroy-Bold.ttf");
+  font-family: "Gilroy-Bold";
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: linear-gradient(211.87deg, #98d0fc 2.46%, #3481d7 93.24%);
+  position: relative;
+  z-index: 0;
+}
+
+.banner::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url("../../../../img/bannerVector.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.8em;
+  margin-bottom: 18px;
+  font-weight: lighter;
+}
+
+.banner-description {
+  width: 50%;
+  width: 70%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.contenedor {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*Colocar estilos de boton a reutilizar*/
+/*Cargar iconos si es que se utiliza*/
+/*# sourceMappingURL=main.css.map */
