@@ -23,3 +23,11 @@
     grid-column-gap: 20px;
   }
 }
+@media screen and (min-width: $mobile) {
+  .all-article-container {
+    .items {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+  }
+}

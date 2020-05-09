@@ -8,6 +8,7 @@
   font-family: "Gilroy-Bold";
 }
 
+/*Breakpoints*/
 .all-article {
   width: 100%;
   height: auto;
@@ -34,5 +35,14 @@
   -ms-grid-columns: auto 1fr;
       grid-template-columns: auto 1fr;
   grid-column-gap: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .all-article-container .items {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
 }
 /*# sourceMappingURL=all-articles.css.map */

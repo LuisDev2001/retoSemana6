@@ -86,3 +86,51 @@
     }
   }
 }
+// Responsive desing
+@media screen and (min-width: $tabletV) {
+  .footer-blog {
+    margin-right: 1.5rem;
+
+    .contenedor {
+      max-width: 40rem;
+    }
+
+    &-description {
+      .contenedor {
+        max-width: 40rem;
+      }
+    }
+
+    &-items {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      grid-gap: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) {
+  .footer-blog {
+    margin-right: 1rem;
+
+    .contenedor {
+      max-width: 20rem;
+    }
+
+    &-description {
+      .contenedor {
+        max-width: 20rem;
+        flex-direction: column;
+      }
+
+      &-footer {
+        width: 85%;
+      }
+    }
+
+    &-items {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+  }
+}

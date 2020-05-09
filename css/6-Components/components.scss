@@ -192,3 +192,14 @@
     opacity: 0.4;
   }
 }
+// Responsive desing
+@media screen and (min-width: $tabletV) {
+  .contenedor {
+    max-width: 45rem;
+  }
+}
+@media screen and (min-width: $mobile) {
+  .contenedor {
+    max-width: 28rem;
+  }
+}

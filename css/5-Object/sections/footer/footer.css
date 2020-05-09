@@ -8,6 +8,7 @@
   font-family: "Gilroy-Bold";
 }
 
+/*Breakpoints*/
 .footer-blog {
   width: auto;
   height: auto;
@@ -103,5 +104,49 @@
   display: block;
   margin-bottom: 1rem;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-blog {
+    margin-right: 1.5rem;
+  }
+  .footer-blog .contenedor {
+    max-width: 40rem;
+  }
+  .footer-blog-description .contenedor {
+    max-width: 40rem;
+  }
+  .footer-blog-items {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    grid-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer-blog {
+    margin-right: 1rem;
+  }
+  .footer-blog .contenedor {
+    max-width: 20rem;
+  }
+  .footer-blog-description .contenedor {
+    max-width: 20rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-blog-description-footer {
+    width: 85%;
+  }
+  .footer-blog-items {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -50,3 +50,27 @@
     color: $colorAzul1Hover;
   }
 }
+
+// Responsive desing
+@media screen and (min-width: $tabletV) {
+  .header {
+    & .contenedor {
+      max-width: 45rem;
+    }
+  }
+}
+@media screen and (min-width: $mobile) {
+  .header {
+    & .contenedor {
+      max-width: 28rem;
+    }
+
+    &-list {
+      width: 90px;
+    }
+
+    &-link {
+      font-size: 0.9rem;
+    }
+  }
+}
